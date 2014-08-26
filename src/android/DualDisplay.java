@@ -31,7 +31,7 @@ public class DualDisplay extends CordovaPlugin{
 	
 	@Override
 	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-		Log.d(TAG,"in DualDisplay");
+//		Log.d(TAG,"in DualDisplay");
 		try{
 			if (ACTION_SEND.equals(action)) {
 				Log.d(TAG,"Sending:"+args.toString());
@@ -77,7 +77,7 @@ public class DualDisplay extends CordovaPlugin{
 	}
 	
 	private boolean bindListener(JSONArray args, CallbackContext callbackContext) {
-    	Log.d(TAG, "bindListener");
+//    	Log.d(TAG, "bindListener");
     	listenerCallbackContext = callbackContext;
     	PluginResult pluginResult = new PluginResult(PluginResult.Status.OK);
     	pluginResult.setKeepCallback(true);
@@ -97,5 +97,4 @@ public class DualDisplay extends CordovaPlugin{
 			System.err.println("[DualDisplay.reportEvent] Exception: " + e.getMessage());
 		}
     }
-
 }
