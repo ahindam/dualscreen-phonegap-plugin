@@ -13,6 +13,7 @@ import android.util.Log;
 import android.view.Display;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
 import org.apache.cordova.*;
 import org.json.JSONException;
 import org.json.JSONObject;
