@@ -31,6 +31,7 @@ public class ApplicationDualDisplay extends CordovaActivity
         super.init();
         // Set by <content src="index.html" /> in config.xml
         super.loadUrl(Config.getStartUrl());
+        //super.loadUrl("file:///android_asset/www/index.html");
     }
     
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
@@ -134,7 +135,7 @@ public class ApplicationDualDisplay extends CordovaActivity
         wv.getSettings().setDomStorageEnabled(true);
         wv.getSettings().setAllowFileAccessFromFileURLs(true);
         wv.setWebViewClient(new MyWebViewClient());
-        wv.loadUrl("file:///android_asset/www2/index.html"); //second display app is in www2 
+        wv.loadUrl("file:///android_asset/www2/index.html");
 
 
         setContentView(wv);
