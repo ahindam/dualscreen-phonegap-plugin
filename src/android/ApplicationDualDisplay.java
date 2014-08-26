@@ -17,6 +17,7 @@ import org.apache.cordova.*;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+
 public class ApplicationDualDisplay extends CordovaActivity 
 {
 	MediaRouter router=null;
