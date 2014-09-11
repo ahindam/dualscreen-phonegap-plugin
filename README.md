@@ -52,12 +52,12 @@ Listening to second screen
 		return this;
 	}());
 
-Sending commend to second screen (Second HTML application in www2)
+Sending command to second screen (Second HTML application in www2)
 --------------------------------------------------------------
 
-	dualdisplay.send(<JAVASCRIPTcommend> );    //call this function from www
+	dualdisplay.send(<JAVASCRIPTcommand> );    //call this function from www
 
-<JAVASCRIPTcommend> will be executed in www2 application.
+<JAVASCRIPTcommand> will be executed in www2 application.
 
   
 	dualdisplay.send("alert('This is a message from www to www2')"); 
