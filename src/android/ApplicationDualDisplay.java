@@ -1,4 +1,3 @@
-
 package com.hinnovac.dualscreen;
 
 import android.annotation.TargetApi;

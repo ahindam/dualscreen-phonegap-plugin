@@ -10,13 +10,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-
 import android.util.Log;
 import android.webkit.WebView;
-
-
-//import android.app.Activity;
-//import android.content.Intent;
 
 public class DualDisplay extends CordovaPlugin{
 	
