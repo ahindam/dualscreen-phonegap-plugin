@@ -13,8 +13,7 @@ import org.json.JSONObject;
 import android.util.Log;
 import android.webkit.WebView;
 
-public class DualDisplay extends CordovaPlugin{
-	
+public class DualDisplay extends CordovaPlugin{	
 	public static final String TAG = "DualDisplay";
 	public static final String ACTION_SEND = "send";
 	public static final String ACTION_BIND_LISTENER = "ACTION_BIND_LISTENER";
